@@ -190,7 +190,7 @@ public class ArrCharOps {
         char c1 = str1.charAt(i);
         char c2 = str2.charAt(i);
         if(c1<c2) return -1;
-        if(c1>c2) return -1;
+        if(c1>c2) return 1;
        }
        if(l1<l2) return -1;
        if(l1>l2) return  1;
